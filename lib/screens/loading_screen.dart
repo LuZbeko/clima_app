@@ -14,7 +14,7 @@ class LoadingScreen extends StatefulWidget {
 class _LoadingScreenState extends State<LoadingScreen> {
   late double latitude;
   late double longitude;
-  String apiKey = '28df77a834ac1db39c7fc1970930f96c';
+  String apiKey = '';
 
   @override
   void initState() {
